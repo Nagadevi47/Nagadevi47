@@ -1,0 +1,349 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    overflow-y: visible;
+}
+#nav{
+    /* border: 2px solid; */
+    height: 80px;
+    width: 100%;
+    position: fixed;
+    z-index: 1111;
+    background-color: #fff;
+}
+#sub-nav{
+    /* border: 2px solid red; */
+    height: 50px;
+    width: 90%;
+    margin: auto;
+    margin-top: 14px;
+    display: flex;
+    justify-content: space-between;
+}
+#logo{
+    /* border: 1px solid; */
+    height: 47px;
+    width: 150px;
+    background-image: url(./assets/titan-logo.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+#search{
+    border: 1px solid rgb(248, 248, 249);;
+    height: 47px;
+    width: 65%;
+    margin-left: 25px;
+    background-color: rgb(248, 248, 249);
+}
+#right-list{
+    /* border: 1px solid blue; */
+    height: 47px;
+    width: 280px;
+    margin-left: 10px;
+}
+#search img{
+    margin-top:15px;
+    margin-left: 20px;
+}
+#search span{
+    font-family: -apple-system,BlinkMacSystemFont,segoe ui,Roboto,helvetica neue,Arial,noto sans,sans-serif,apple color emoji,segoe ui emoji,segoe ui symbol,noto color emoji;
+    color: #212529;
+    font-size: 1rem;
+    position: absolute;
+    top: 28px;
+    left: 320px;
+}
+#search #mic{
+    position: relative;
+    left: 800px;
+}
+#right-list ol{
+    display: flex;
+    gap: 28px;
+    list-style: none;
+}
+#right-list ol li span{
+    font-size: 14px;
+}
+#right-list ol li+li img{
+    height: 1.5em;
+}
+#nav-2{
+    /* border: 2px solid red; */
+    height: 50px;
+    width: 100%;
+    position: absolute;
+    top: 80px;
+}
+#sub-nav-2{
+    /* border: 1px solid; */
+    height: inherit;
+    width: 60%;
+    margin: auto;
+}
+#sub-nav-2 ol{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    color: #212121;
+    font-family: -apple-system,BlinkMacSystemFont,segoe ui,Roboto,helvetica neue,Arial,noto sans,sans-serif,apple color emoji,segoe ui emoji,segoe ui symbol,noto color emoji;
+    font-size: 15px;
+    font-weight: 550;
+    cursor: pointer;
+}
+
+#location{
+    /* border: 1px solid blue; */
+    height: 25px;
+    width: 100%;
+    position: absolute;
+    top: 130px;
+    background-color: rgb(248, 248, 249);
+    display: flex;
+}
+#location span img{
+    position: absolute;   
+}
+#location span{
+    font-size: .625rem;
+    line-height: 1rem;
+    text-align: center;
+    letter-spacing: 0;
+    color: rgba(0,0,0,.870588);
+    margin-left: 25px;
+    font-family: poppins,sans-serif;
+}
+#top{
+    /* border: 2px solid; */
+    height: 2300px;
+    width: 100%;
+    position: absolute;
+    top: 155px;
+}
+#sub-top{
+    /* border: 1px solid red; */
+    height: 510px;
+    width: 100%;
+    cursor: pointer;
+}
+#top2{
+    /* border: 2px solid red; */
+    height: 400px;
+    width: 95%;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    margin-top: 25px;
+}
+#sub-top2-1{
+    /* border: 1px solid blue; */
+    height: inherit;
+    width: 49%;
+    background-image: url(./assets/BRANDLD.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    cursor: pointer;
+}
+#sub-top2-2{
+    /* border: 1px solid blue; */
+    height: inherit;
+    width: 49%;
+    background-image: url(./assets/watch.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    cursor: pointer;
+}
+#top3{
+    /* border: 2px solid blue; */
+    height: 160px;
+    width: 75%;
+    margin: auto;
+    margin-top: 50px;
+    background-image: url(./assets/emi.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#rounds{
+    /* border: 2px solid green; */
+    height: 270px;
+    width: 90%;
+    margin: auto;
+    margin-top: 70px;
+    cursor: pointer;
+}
+#rounds span{
+    font-weight: 400;
+    font-family: poppins,sans-serif;
+    font-size: 1.875rem;
+    line-height: 2.25rem;
+    letter-spacing: 0;
+    color: #000;
+    text-transform: uppercase;
+    opacity: .87;
+    margin-left: 300px;
+    cursor: pointer;
+}
+#sub-cards{
+    /* border: 2px solid ; */
+    height: 180px;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+.card{
+    border: none;
+}
+.card-text{
+    /* margin-left: 45px; */
+    margin: auto;
+    font-size: 25px;
+}
+#top4{
+    /* border: 2px solid green; */
+    height: 650px;
+    width: 90%;
+    margin: auto;
+    margin-top: 60px;
+}
+#top4 span{
+    font-weight: 400;
+    font-family: poppins,sans-serif;
+    font-size: 1.875rem;
+    line-height: 2.25rem;
+    letter-spacing: 0;
+    color: #000;
+    text-transform: uppercase;
+    opacity: .87;
+    margin-left: 550px;
+}
+#watches{
+    /* border: 2px solid red; */
+    height: 620px;
+    display: flex;
+    gap: 15px;
+}
+#watches-1{
+    /* border: 1px solid green; */
+    height: 620px;
+    width: 48%;
+    background-image: url(./assets/MechanicalE.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#watches-2{
+    /* border: 1px solid blue; */
+    height: 620px;
+    width: 48%;
+    gap: 15px;
+}
+#men-watch-1{
+    /* border: 1px solid red; */
+    height: 300px;
+    width: 320px;
+    background-image: url(./assets/Automatic.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#men-watch-2{
+    /* border: 1px solid red; */
+    height: 300px;
+    width: 320px;
+    margin-top: 10px;
+    background-image: url(./assets/Chronograph.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#men-watch-3{
+    /* border: 1px solid blue; */
+    height: 300px;
+    width: 320px;
+    position: relative;
+    bottom: 610px;
+    left: 330px;
+    background-image: url(./assets/Quartz.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#men-watch-4{
+    /* border: 1px solid red; */
+    height: 300px;
+    width: 320px;
+    position: relative;
+    bottom: 600px;
+    left: 330px;
+    background-image: url(./assets/Smart.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#list-men{
+    border: 2px solid red;
+    height: 500px;
+    width: 65%;
+    background-color: white;
+    position: absolute;
+    top: 150px;
+    left: 200px;
+    display: none;
+}
+#list-men aside{
+    display: inline-flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    gap: 300px;
+}
+#list-men ol{
+    list-style: none;
+    margin-left: 20px;  
+}
+#list-men ol li{
+   padding: 8px 10px;
+   color: #212529;
+}
+#list-men img{
+    height: 380px;
+    width: 300px;
+    position: absolute;
+    left: 650px;
+}
+
+#list-women{
+    border: 2px solid red;
+    height: 500px;
+    width: 65%;
+    background-color: white;
+    position: absolute;
+    top: 150px;
+    left: 200px;
+    display: none;
+}
+#list-women aside{
+    display: inline-flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    gap: 300px;
+}
+#list-women ol{
+    list-style: none;
+    margin-left: 20px;  
+}
+#list-women ol li{
+   padding: 8px 10px;
+   color: #212529;
+}
+#list-women img{
+    height: 380px;
+    width: 300px;
+    position: absolute;
+    left: 650px;
+}
