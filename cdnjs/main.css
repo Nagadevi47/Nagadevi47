@@ -1,0 +1,186 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: "Ubuntu",sans-serif;
+}
+:root{
+    --text-color: #ebebeb ;
+    --bg-color:#343535;
+    --font-family:"Ubuntu",sans-serif;
+    --bg-color11:#454647;
+    --font-family: "Ubuntu",sans-serif;
+}
+#nav{
+    /* border: 2px solid; */
+    height: 80px;
+    background-color: var(--bg-color);
+}
+#sub-nav{
+    margin: 15px;
+    height: 50px;
+    /* border: 2px solid red; */
+}
+#sub-nav ol{
+    list-style: none;
+    align-items: center;
+    display: flex;
+    fill: var(--text-color);
+    /* justify-content: space-between; */
+    color: var(--text-color);
+    fill: var(--text-color);
+}
+ol img{
+    height: 45px;
+}
+ol svg{
+    height: 1em;
+    fill: var(--text-color);
+    padding-left: 25px;
+}
+ol svg+svg{
+    height: 1em;
+    fill: var(--text-color);
+    /* padding-left: 25px; */
+}
+#list2 {
+    /* border: 2px solid red; */
+    position: absolute;
+    /* right: 25px; */
+    left: 900px;
+    top: 28px;
+    list-style: none;
+    display: flex;
+    fill: var(--text-color);
+}
+#list2 p{
+    word-spacing: 45px;
+    padding-left: 120px;
+    color: var(--text-color);
+    font-weight: 400;
+    font-family: "Ubuntu",sans-serif;
+    font-size: 20px;
+}
+#list2 p a{
+    color: var(--text-color);
+    text-decoration: none;
+}
+#list2 p a:hover{
+    color: var(--bg-color11);
+    text-decoration: none;
+}
+
+/* #sub-list2 li{
+    word-spacing: 20px;
+} */
+
+#body{
+    /* border: 2px solid red; */
+    height: 570px;
+    background-color: var(--bg-color11);
+    /* font-family: var(--font-family); */
+    background-image: url(./assets/6da6dfe9adcee0de10efcad20d5b33d7.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#mid{
+    /* border: 2px solid green; */
+    height: 400px;
+    width: 950px;
+    align-items: center;
+    margin-left: 320px;
+    position: absolute;
+    top: 120px;
+}
+#mid h1{
+    font-size: 48px;
+    font-weight: 400;
+    letter-spacing: .41px;
+    color: var(--text-color);
+    font-family: "Ubuntu",sans-serif ;
+    margin: 0 0 32px;
+}
+#mid h2{
+    color: var(--text-color);
+    font-weight: 300;
+    font-size: 24px;
+    letter-spacing: .2px;
+    font-family: "Ubuntu",sans-serif ;
+    margin: 0 0 80px;
+}
+#formm{
+    color: #ebebeb;
+    width: 95%;
+    padding: 12px;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: lighter;          
+    color: var(--bg-color11);
+}
+#form span svg{
+    height: 24px;
+    width: 24px;
+    border: none;
+    position: absolute;
+    left: 860px;
+    top: 345px;
+    fill: var(--bg-color11);
+}
+#bottom{
+    background-color: #d9643a;
+    /* color: #030303; */
+    height: 45px;
+}
+#bottom p{
+    color: #141515;
+    font-weight: 400;
+    padding-top: 10px;
+    padding-left: 20px;
+}
+#bottom p svg{
+    height: 1em;
+}
+#bottom #a1{
+    color: #141515;
+}
+#bottom #a2{
+    color: #141515;
+}
+#bottom #a3{
+    color: #141515;
+}
+#bottom #a4{
+    color: #141515;
+}
+#foot{
+    height: 220px;
+    /* border: 2px solid; */
+    position: absolute;
+    bottom: 0%;
+    right: 0%;
+    /* bottom: 0%; */
+    color: var(--text-color); 
+    width: 220px;
+    z-index: 5;
+    background-color: var(--bg-color11);
+    transform: rotate(-90deg);
+}
+#sub-foot span svg{
+    height: 1.3em;
+    position: absolute;
+    top: 130px;
+    left: 74px;
+    fill: var(--text-color);
+    transform: rotate(45deg);
+}
+#sub-foot p{
+    position: absolute;
+    top: 85px;
+    left: 10px;
+    color: var(--text-color);
+    font-size: 22px;
+    font-family:"Ubuntu",sans-serif ;
+    transform: rotate(45deg);
+}
+
