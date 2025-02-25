@@ -1,0 +1,324 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    overflow-y: visible;
+}
+#nav{
+    /* border: 2px solid ; */
+    height: 80px;
+    width: 100%;
+    background: #0078ad;
+    position: fixed;
+    z-index: 1111;
+}
+#sub-nav{
+    /* border: 2px solid ; */
+    height: inherit;
+    width: 80%;
+    margin: auto;
+}
+#sub-nav-2{
+    /* border: 2px solid red; */
+    height: 55px;
+    width: 100%;
+    /* padding: 12px 8px; */
+    margin-top: 10px;
+}
+#sub-nav-2 #left{
+    /* border: 2px solid blue; */
+    height: 55px;
+    width: 380px;    
+}
+#sub-nav-2 #left ol{
+    display:flex;
+    /* justify-content: space-evenly; */
+    gap: 15px;
+    list-style: none;
+    padding: 8px 8px;
+}
+#sub-nav-2 #left ol li:first-child img:hover{
+    cursor: pointer;
+    background: #141414;
+    border-radius: 15px;
+}
+#sub-nav-2 #left button{
+    padding: 5px 8px;
+    border-color: #0078ad;
+    color: #fff;
+    border-radius: 15px;
+    border: none;
+    background: #0078ad;
+    font-family: "JioType",helvetica,arial,sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+}
+#sub-nav-2 #left button:hover{
+    background: #141414;
+    background-size: 15px;
+}
+#sub-nav-2 #left ol li+li:hover{
+    cursor: pointer;
+}
+#sub-nav-2 #right{
+    /* border: 2px solid black; */
+    height: 55px;
+    width: 470px;  
+    position: absolute;
+    top: 10px;  
+    left: 910px;
+    display: flex;
+}
+#right #search-button{
+    border: 2px solid;
+    height: 40px;
+    width: 280px;
+    margin-top: 5px;
+    border-radius: 18px;
+    background: #fff;
+    border-color: #fff;
+    display: flex;
+}
+#search-button div:first-child{
+    /* border: 1px solid; */
+    height: 26px;
+    width: 26px;
+    margin: 6px 12px;
+    cursor: pointer;
+}
+#search-button span{
+    padding: 8px 8px;
+    font-family: "JioType",helvetica,arial,sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    color: grey;
+}
+#search-button div:last-child{
+    /* border: 1px solid; */
+    height: 26px;
+    width: 26px;
+    /* margin: 6px 50px; */
+    margin-left: 78px;
+    margin-top: 5px;
+    cursor: pointer;
+}
+#right #cart{
+    /* border: 1px solid; */
+    height: 45px;
+    width: 42px;
+    margin-top: 5px;
+    margin-left: 4px;
+    cursor: pointer;
+    border-radius: 25px;   
+}
+#right #cart img{
+    padding: 8px 8px;
+    height: 45px;
+    width: 40px;
+}
+#right #cart:hover{
+    background: #141414;
+}
+#right button{
+    /* border: 1px solid black; */
+    /* border-color: #0078ad; */
+    border: none;
+    height: 40px;
+    width: 120px;
+    border-radius: 20px;
+    margin-top: 5px;
+    margin-left: 8px;
+    background: none;
+    display: flex;
+    cursor: pointer;
+}
+#right button div{
+    /* border: 1px solid green; */
+    height: 32px;
+    width: 30px;
+    margin-left: 6px;
+    margin-top: 4px;
+}
+#right button span{
+    font-family: "JioType",helvetica,arial,sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    color: #fff;
+    margin-top: 8px;
+    margin-left: 8px;
+}
+#right button:hover{
+    background-color: #141414;
+}
+#nav2{
+    /* border: 2px solid; */
+    height: 40px;
+    width: 100%;
+    background: #0c5273;
+    position: fixed;
+    margin-top: 80px;
+    z-index: 1111;
+}
+#sub-nav2{
+    /* border: 1px solid white; */
+    height: inherit;
+    width: 65%;
+    margin-left: 160px;
+}
+#sub-nav2 ol{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+#sub-nav2 li{
+    font-family: "JioType",helvetica,arial,sans-serif;
+    font-size: 14px;
+    font-weight: 550;
+    color: #fff;
+    margin-top: 7px;
+    cursor: pointer;
+}
+#top1{
+    /* border: 2px solid red; */
+    height: 300px;
+    width: 100%;
+    position: absolute;
+    top: 160px;
+}
+#top2{
+    /* border: 2px solid; */
+    height: 220px;
+    width: 98%;
+    position: absolute;
+    top: 470px;
+    left: 15px;
+    background-image: url(./assets/sale\ img.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#top3{
+    /* border: 2px solid red; */
+    height: 750px;
+    width: 100%;
+    position: absolute;
+    top: 700px;
+}
+#top3 h5{
+    font-family: "JioType",helvetica,arial,sans-serif;
+    font-weight: 900 !important;
+    font-size: 16px !important;
+    letter-spacing: -0.48px !important;
+    padding: 10px 15px ;
+}
+#top3 #sub-top3{
+    /* border: 2px solid; */
+    height: 250px;
+    width: 92%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+#top3 #sub-top3 img:hover{
+    cursor: pointer;
+}
+#top3 #sub-top3-2{
+    /* border: 2px solid; */
+    height: 250px;
+    width: 92%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+#top3 #sub-top3-2 img:hover{
+    cursor: pointer;
+}
+#top3 #sub-top3-3{
+    /* border: 2px solid; */
+    height: 130px;
+    width: 98%;
+    margin-left: 15px;
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+#top3 #sub-top3-3 img{
+    height: 120px;
+    width: 49%;
+}
+#top4{
+    /* border: 2px solid ; */
+    height: 850px;
+    width: 100%;
+    position: absolute;
+    top: 1480px;
+}
+#top4 h5{
+    font-family: "JioType",helvetica,arial,sans-serif;
+    font-weight: 900 !important;
+    font-size: 16px !important;
+    letter-spacing: -0.48px !important;
+    padding: 10px 15px ;
+}
+#sub-top4{
+    /* border: 2px solid red; */
+    height: 375px;
+    width: 95%;
+    margin-top: 40px;
+    margin-left: 60px;
+    display: flex;
+    gap: 15px;
+}
+.card span svg{
+    height: 2em;
+    margin-left: 150px;
+}
+.card-text{
+    font-family: "JioType",helvetica,arial,sans-serif;
+    font-weight: 550 !important;
+    font-size: 12px !important;
+    color: grey;
+}
+#sub-top4 .card{
+    border: none;
+}
+.card h5{
+    font-size: 10px;
+    position: absolute;
+    top: 290px;
+    font-family: "JioType",helvetica,arial,sans-serif;
+}
+.card button{
+    border-radius: 20px;
+    padding: 5px 10px;
+    background: #fff;
+    border: 1px solid gray;
+}
+.card button:hover{
+    border-color: #0c5273;
+}
+#view{
+    height: 32px;
+    width: 100px;
+    position: absolute;
+    top: 10px;
+    left: 1380px;
+    border-radius: 50px;
+    background: #fff;
+    border: 1px solid gray;
+    color: #0c5273;
+    font-weight: bold;
+}
+#view:hover{
+    border: 1px solid #0c5273;
+}
+.card:hover{
+    cursor: pointer;
+}
+#corosel-mid{
+    /* border: 2px solid ; */
+    height: 300px;
+    width: 98%;
+    margin: auto;
+    margin-top: 40px;
+}
